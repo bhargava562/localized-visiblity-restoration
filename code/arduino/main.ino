@@ -6,8 +6,8 @@ constexpr int RELAY_PIN = 8;
 constexpr int LASER_SCATTER_PIN = A0;
 
 // Initial commissioning defaults; tune with field calibration logs for site-specific fog behavior.
-constexpr float HUMIDITY_THRESHOLD = 85.0f;
-constexpr int SCATTER_THRESHOLD = 600;
+constexpr float HUMIDITY_THRESHOLD = 85.0f;  // %RH trigger for high ambient moisture.
+constexpr int SCATTER_THRESHOLD = 600;       // ADC count (0-1023) from photodiode scattering channel.
 
 DHT dht(DHT_PIN, DHT_TYPE);
 
@@ -30,6 +30,7 @@ void loop() {
     return;
   }
 
+  // OR logic is intentional for Phase 1/2: either humidity spike or optical scatter is sufficient to engage cooling.
   bool shouldTrigger = humidity >= HUMIDITY_THRESHOLD || scatterValue >= SCATTER_THRESHOLD;
   digitalWrite(RELAY_PIN, shouldTrigger ? HIGH : LOW);
 
