@@ -1,4 +1,4 @@
-# LOVRS-AFAM: Localized Optical Vapour Recovery and Suppression
+# LOVRS-AFAM: Localized Optical Vapor Recovery and Suppression
 
 [![Project Status](https://img.shields.io/badge/status-prototype--phase-blue)](https://github.com/bhargava562/localized-visiblity-restoration)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)

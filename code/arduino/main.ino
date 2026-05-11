@@ -5,6 +5,7 @@ constexpr int DHT_TYPE = DHT22;
 constexpr int RELAY_PIN = 8;
 constexpr int LASER_SCATTER_PIN = A0;
 
+// Initial commissioning defaults; tune with field calibration logs for site-specific fog behavior.
 constexpr float HUMIDITY_THRESHOLD = 85.0f;
 constexpr int SCATTER_THRESHOLD = 600;
 
@@ -41,5 +42,6 @@ void loop() {
   Serial.print(" | Relay: ");
   Serial.println(shouldTrigger ? "ON" : "OFF");
 
+  // 2s cadence balances control responsiveness and relay/Peltier switching stability.
   delay(2000);
 }
