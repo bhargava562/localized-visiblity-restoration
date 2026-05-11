@@ -115,13 +115,7 @@ LOVRS-AFAM/
 <img src="assets/screenshots/img5.jpeg" width="45%" />
 
 ### Demonstration Videos
-<video src="assets/videos/video1.mp4" controls="controls" width="100%">
-  Your browser does not support the video tag.
-</video>
-
-<video src="assets/videos/video2.mp4" controls="controls" width="100%">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/14565cf5-5cff-4fb2-bd4c-15321c107766
 
 
 <img src="https://img.icons8.com/fluency/48/iceberg.png" alt="Cooling icon"/> <img src="https://img.icons8.com/fluency/48/lightning-bolt.png" alt="Power icon"/> <img src="https://img.icons8.com/fluency/48/engineering.png" alt="Engineering icon"/>
