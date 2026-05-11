@@ -105,4 +105,23 @@ LOVRS-AFAM/
 
 ---
 
+## Media Gallery
+
+## Screenshots
+<img src="assets/screenshots/img1.jpeg" width="45%" />
+<img src="assets/screenshots/img2.jpeg" width="45%" />
+<img src="assets/screenshots/img3.jpeg" width="45%" />
+<img src="assets/screenshots/img4.jpeg" width="45%" />
+<img src="assets/screenshots/img5.jpeg" width="45%" />
+
+### Demonstration Videos
+<video src="assets/videos/video1.mp4" controls="controls" width="100%">
+  Your browser does not support the video tag.
+</video>
+
+<video src="assets/videos/video2.mp4" controls="controls" width="100%">
+  Your browser does not support the video tag.
+</video>
+
+
 <img src="https://img.icons8.com/fluency/48/iceberg.png" alt="Cooling icon"/> <img src="https://img.icons8.com/fluency/48/lightning-bolt.png" alt="Power icon"/> <img src="https://img.icons8.com/fluency/48/engineering.png" alt="Engineering icon"/>
