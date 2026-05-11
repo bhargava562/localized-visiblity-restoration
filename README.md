@@ -10,7 +10,7 @@
 
 ## 📌 Overview
 
-LOVRS (Localized Optical Vapour Recovery and Suppression), also referenced as AFAM (Atmospheric Water Generation), targets only the **0.9–1.5m Driver Optical Corridor** instead of clearing the whole environment.
+LOVRS (Localized Optical Vapor Recovery and Suppression), also referenced as AFAM (Atmospheric Water Generation), targets only the **0.9–1.5m Driver Optical Corridor** instead of clearing the whole environment.
 
 This localized strategy supports:
 - **Higher practical visibility gain per watt**
